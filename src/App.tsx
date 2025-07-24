@@ -1,11 +1,10 @@
 import Listing from './components/Listing';
 import data from './data/etsy.json';
+import "./App.css"
 
 const App = () => {
   return (
-    <div>
-      <Listing items={data} />
-    </div>
+    <Listing items={data} />
   );
 };
 
